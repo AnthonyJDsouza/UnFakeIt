@@ -13,6 +13,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
+\usepackage{textcmds}
 
 
 % It is strongly recommended to use hyperref, especially for the review version.
@@ -107,6 +108,8 @@ In this stage, a ViT model \cite{dosovitskiyImageWorth16x162021} will be fine-tu
 
 \subsubsection{Stage 2: Interpretability - SAE and Attention rollout}
 Sparse autoencoders are small models that are trained on hidden representations for a model with an aim to sparsify entangled features in the hidden representations of large models. This makes models more interpretable, essentially helping in deriving human understandable explanations for behaviours of the model. The SAE will be trained by harvesting hidden representations from the model and help us understand what features the model looks at to classify between real and AI generated images.
+
+The main challenge in interpretability is polysemanticity, the notion that neurons in a neural antework can activate from multiple, unrelated inputs, likely due to a model using neurons efficiently, in order to leave other neurons available for important tasks \cite{olah2020zoom}. Polysemanticity is attributed to superposition, where models represent more concepts than available neurons, leading to concepts being represented by various neurons at once  \cite{karvonen_intuitive_2024}.  This in turn makes interpreting specific model features difficult, which is why we use SAEs. SAEs create a matrix of sparse, more interpretable, encoded representations from LLM input  \cite{karvonen_intuitive_2024}. Encoded representations can also be called features. These features may activate based on different inputs, and through these activations, we can better interpret what information these features activate on. Additionally, as SAEs are given the incentive to create sparse vectors as a result of imposing L1 loss, we get only a few non-zero values, which are theoretically the \qq{true} features of the model \cite{kutsyk_sparse_2024}. 
 
 Attention rollout \cite{abnarQuantifyingAttentionFlow2020} is another method to make later attention layers more interpretable.
 
