@@ -1,8 +1,51 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
+\bibitem{abdin2024phi3technicalreporthighly}
+Marah Abdin, Jyoti Aneja, Hany Awadalla, Ahmed Awadallah, Ammar~Ahmad Awan,
+  Nguyen Bach, Amit Bahree, Arash Bakhtiari, Jianmin Bao, Harkirat Behl, Alon
+  Benhaim, Misha Bilenko, Johan Bjorck, Sébastien Bubeck, Martin Cai, Qin Cai,
+  Vishrav Chaudhary, Dong Chen, Dongdong Chen, Weizhu Chen, Yen-Chun Chen,
+  Yi-Ling Chen, Hao Cheng, Parul Chopra, Xiyang Dai, Matthew Dixon, Ronen
+  Eldan, Victor Fragoso, Jianfeng Gao, Mei Gao, Min Gao, Amit Garg, Allie~Del
+  Giorno, Abhishek Goswami, Suriya Gunasekar, Emman Haider, Junheng Hao,
+  Russell~J. Hewett, Wenxiang Hu, Jamie Huynh, Dan Iter, Sam~Ade Jacobs, Mojan
+  Javaheripi, Xin Jin, Nikos Karampatziakis, Piero Kauffmann, Mahoud Khademi,
+  Dongwoo Kim, Young~Jin Kim, Lev Kurilenko, James~R. Lee, Yin~Tat Lee, Yuanzhi
+  Li, Yunsheng Li, Chen Liang, Lars Liden, Xihui Lin, Zeqi Lin, Ce Liu, Liyuan
+  Liu, Mengchen Liu, Weishung Liu, Xiaodong Liu, Chong Luo, Piyush Madan, Ali
+  Mahmoudzadeh, David Majercak, Matt Mazzola, Caio César~Teodoro Mendes,
+  Arindam Mitra, Hardik Modi, Anh Nguyen, Brandon Norick, Barun Patra, Daniel
+  Perez-Becker, Thomas Portet, Reid Pryzant, Heyang Qin, Marko Radmilac,
+  Liliang Ren, Gustavo de Rosa, Corby Rosset, Sambudha Roy, Olatunji Ruwase,
+  Olli Saarikivi, Amin Saied, Adil Salim, Michael Santacroce, Shital Shah, Ning
+  Shang, Hiteshi Sharma, Yelong Shen, Swadheen Shukla, Xia Song, Masahiro
+  Tanaka, Andrea Tupini, Praneetha Vaddamanu, Chunyu Wang, Guanhua Wang, Lijuan
+  Wang, Shuohang Wang, Xin Wang, Yu Wang, Rachel Ward, Wen Wen, Philipp Witte,
+  Haiping Wu, Xiaoxia Wu, Michael Wyatt, Bin Xiao, Can Xu, Jiahang Xu, Weijian
+  Xu, Jilong Xue, Sonali Yadav, Fan Yang, Jianwei Yang, Yifan Yang, Ziyi Yang,
+  Donghan Yu, Lu Yuan, Chenruidong Zhang, Cyril Zhang, Jianwen Zhang, Li~Lyna
+  Zhang, Yi Zhang, Yue Zhang, Yunan Zhang, and Xiren Zhou.
+\newblock Phi-3 technical report: A highly capable language model locally on
+  your phone, 2024.
+
 \bibitem{abnarQuantifyingAttentionFlow2020}
 Samira Abnar and Willem Zuidema.
 \newblock Quantifying {{Attention Flow}} in {{Transformers}}, May 2020.
+
+\bibitem{chen2024far}
+Zhe Chen, Weiyun Wang, Hao Tian, Shenglong Ye, Zhangwei Gao, Erfei Cui, Wenwen
+  Tong, Kongzhi Hu, Jiapeng Luo, Zheng Ma, et~al.
+\newblock How far are we to gpt-4v? closing the gap to commercial multimodal
+  models with open-source suites.
+\newblock {\em arXiv preprint arXiv:2404.16821}, 2024.
+
+\bibitem{chen2024internvl}
+Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong,
+  Qinglong Zhang, Xizhou Zhu, Lewei Lu, et~al.
+\newblock Internvl: Scaling up vision foundation models and aligning for
+  generic visual-linguistic tasks.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 24185--24198, 2024.
 
 \bibitem{ciamarraDeepfakeDetectionExploiting2024}
 Andrea Ciamarra, Roberto Caldelli, Federico Becattini, Lorenzo Seidenari, and
@@ -75,6 +118,18 @@ Zhenglin Huang, Jinwei Hu, Xiangtai Li, Yiwei He, Xingyu Zhao, Bei Peng,
 \newblock In {\em Proceedings of the {{Computer Vision}} and {{Pattern
   Recognition Conference}}}, pages 28831--28841, 2025.
 
+\bibitem{karvonen_intuitive_2024}
+Adam Karvonen.
+\newblock An {Intuitive} {Explanation} of {Sparse} {Autoencoders} for
+  {Mechanistic} {Interpretability} of {LLMs}.
+\newblock June 2024.
+
+\bibitem{kutsyk_sparse_2024}
+Taras Kutsyk, Tommaso Mencattini, and Ciprian Florea.
+\newblock Do {Sparse} {Autoencoders} ({SAEs}) transfer across base and
+  finetuned language models?
+\newblock Sept. 2024.
+
 \bibitem{laiLISAReasoningSegmentation2024}
 Xin Lai, Zhuotao Tian, Yukang Chen, Yanwei Li, Yuhui Yuan, Shu Liu, and Jiaya
   Jia.
@@ -103,6 +158,13 @@ Yaron Lipman, Ricky T.~Q. Chen, Heli {Ben-Hamu}, Maximilian Nickel, and Matt
   Le.
 \newblock Flow {{Matching}} for {{Generative Modeling}}, Feb. 2023.
 
+\bibitem{olah2020zoom}
+Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and
+  Shan Carter.
+\newblock Zoom in: An introduction to circuits.
+\newblock {\em Distill}, 2020.
+\newblock https://distill.pub/2020/circuits/zoom-in.
+
 \bibitem{rombachHighResolutionImageSynthesis2022}
 Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj{\"o}rn
   Ommer.
@@ -129,6 +191,14 @@ Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, and
 Selim Seferbekov.
 \newblock Deepfake {{Detection Challenge}}.
 \newblock https://kaggle.com/deepfake-detection-challenge.
+
+\bibitem{steiner2024paligemma2familyversatile}
+Andreas Steiner, André~Susano Pinto, Michael Tschannen, Daniel Keysers, Xiao
+  Wang, Yonatan Bitton, Alexey Gritsenko, Matthias Minderer, Anthony Sherbondy,
+  Shangbang Long, Siyang Qin, Reeve Ingle, Emanuele Bugliarello, Sahar
+  Kazemzadeh, Thomas Mesnard, Ibrahim Alabdulmohsin, Lucas Beyer, and Xiaohua
+  Zhai.
+\newblock Paligemma 2: A family of versatile vlms for transfer, 2024.
 
 \bibitem{szegedyRethinkingInceptionArchitecture2015}
 Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and

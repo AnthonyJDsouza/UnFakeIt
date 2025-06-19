@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.20)  16 JUN 2025 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.20)  19 JUN 2025 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,6 +215,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count294
 \@thisrulewidth=\dimen172
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsrefs/textcmds.sty
+Package: textcmds 2012/08/02 v2.00
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
@@ -368,7 +371,7 @@ Package cleveref Info: always capitalise cross-reference names on input line 78
 52.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -381,24 +384,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./ProjectProposal.aux)
 \openout1 = `ProjectProposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -451,7 +454,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -464,53 +467,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (./ProjectProposal.out) (./ProjectProposal.out)
 \@outlinefile=\write3
 \openout3 = `ProjectProposal.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
-9.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+00.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./ProjectProposal.bbl
+] [2] (./ProjectProposal.bbl
 (./ProjectProposal.brf)
 \tf@brf=\write4
 \openout4 = `ProjectProposal.brf'.
 
- [2]) [3] (./ProjectProposal.aux)
+ [3] [4]) [5
+
+] (./ProjectProposal.aux)
 Package rerunfilecheck Info: File `ProjectProposal.out' has not changed.
-(rerunfilecheck)             Checksum: AD36C16B21E33A82CB48B7F24287B6B2;2582.
+(rerunfilecheck)             Checksum: 282D32A355AC2503A13C751FFB6A2A1A;2855.
 Package rerunfilecheck Info: File `ProjectProposal.brf' has not changed.
-(rerunfilecheck)             Checksum: E8417040CEE1FB5ADB906F7A4B94E36A;1954.
+(rerunfilecheck)             Checksum: 319543C90E9691B624487587E88EEE6B;2424.
  ) 
 Here is how much of TeX's memory you used:
- 13736 strings out of 478287
- 232804 string characters out of 5849289
- 548548 words of memory out of 5000000
- 31700 multiletter control sequences out of 15000+600000
+ 13835 strings out of 478287
+ 234666 string characters out of 5849289
+ 549747 words of memory out of 5000000
+ 31779 multiletter control sequences out of 15000+600000
  495509 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,8n,91p,1175b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,8n,91p,1195b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -521,10 +526,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectProposal.pdf (3 pages, 127576 bytes).
+Output written on ProjectProposal.pdf (5 pages, 139351 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
