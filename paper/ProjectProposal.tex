@@ -109,7 +109,7 @@ A significant portion of methods for deepfake detection systems were built befor
 %\subsubsection{Idea 1 : Vision Language Model to detect AI generated images}
 %Our goal for this project is two-fold. First, we aim to address the lack of data and research on AI-generated and tampered images created using newer methods such as diffusion models. Second, we aim to use mechanistic interpretability to better understand which features in a neural network aid in deepfake prediction. As neural networks grow in both size and reasoning capabilities, the need to understand their inner workings increases equally.
 
-Our main goal is to detect AI generated images, with secondary goals being interpreting the hidden states of the ViT classifier using mechanistic interpretability / look at if logical reasoning can help in the detection of AI generated content.
+Our main goal is to detect AI generated images, with secondary goals being interpreting the hidden states of the ViT classifier using mechanistic interpretability / look at if logical reasoning can help in the detection of hyperrealistic AI generated content.
 
 \subsection{Proposed Timeline}
 We have the following timeline for the project :
@@ -123,7 +123,7 @@ We have the following timeline for the project :
 Since we have 2 ideas, we thought we could explain both of them here.
 
 \subsection{Vision Language Model to detect AI generated images}
-Modern AI-generated images often appear hyperrealistic, resembling works of art, yet they are not free from artifacts, with subtle logical inconsistencies that set them apart from real images. These artifacts, such as airbrushed skin, six fingers, weird illumination, or physically impossible body postures are easily noticeable to the human eye, allowing our logical reasoning to distinguish between real and synthetic images. However, vision-based models struggle to perform this kind of commonsense reasoning. To address this, we complement  the vision encoder with a large language model (LLM) that can perform reasoning to determine whether an image or video is AI-generated, leveraging the strengths of both modalities for more accurate detection. So our approach is very similar to \cite{zhangCommonSenseReasoning2025}, with 2 key differences; the most important being the difference in data; variety of hyperrealistic images from more recent models and more logical explanations and different multimodal models like \cite{steiner2024paligemma2familyversatile, abdin2024phi3technicalreporthighly, chen2024far, chen2024internvl}
+Modern AI-generated images often appear hyperrealistic, resembling works of art, yet they are not free from artifacts, with subtle logical inconsistencies that set them apart from real images. These artifacts, such as airbrushed skin, six fingers, weird illumination, or physically impossible body postures are easily noticeable to the human eye, allowing our logical reasoning to distinguish between real and synthetic images. However, vision-based models struggle to perform this kind of commonsense reasoning. To address this, we complement  the vision encoder with a large language model (LLM) that can perform reasoning to determine whether an image or video is AI-generated, leveraging both modalities for more accurate detection. So our approach is very similar to \cite{zhangCommonSenseReasoning2025}, with 2 key differences; the most important being the difference in data; variety of hyperrealistic images from more recent models and more logical explanations and different multimodal models like \cite{steiner2024paligemma2familyversatile, abdin2024phi3technicalreporthighly, chen2024far, chen2024internvl}. 
 
 \subsection{ViT-based classifier}
 \subsubsection{Stage 1: Training classifier}
@@ -139,6 +139,9 @@ The SAE will be trained by harvesting hidden representations from the model trai
 
 
 Attention rollout \cite{abnarQuantifyingAttentionFlow2020} is another method to make later attention layers more interpretable.
+
+\subsection{Compute Budget}
+For both projects, compute is not an issue, as we will be finetuning the models. We also have access to the LST cluster that we will be using along with the provided compute resources.
 
 \section{Datasets}
 For this project, we intend to collect publicly available AI generated images  and videos from social media sites like Facebook, Reddit, X, Instagram, etc. After collection, we plan to annotate them. This is because there is no publicly available dataset that is regularly updated to keep up with new generators like StableDiffusion, FLUX, etc. Our dataset needs to have the ground truths of the image / video and also a textual and logical description as to  why it is labelled so. 
