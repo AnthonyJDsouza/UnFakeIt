@@ -16,6 +16,7 @@
 \usepackage{textcmds}
 
 
+
 % It is strongly recommended to use hyperref, especially for the review version.
 % hyperref with option pagebackref eases the reviewers' job.
 % Please disable hyperref *only* if you encounter grave issues, e.g. with the
@@ -100,6 +101,21 @@ SurFake's \cite{ciamarraDeepfakeDetectionExploiting2024} approach is based aroun
 \cite{huangSIDASocialMedia2025} created the Social Media Image Detection Dataset, comprising 300,000 images that include real, AI-generated, and tampered images. This dataset emphasizes broad diversity and realism to ensure it reflects the complexities of images encountered on social media platforms, providing a robust resource for developing and evaluating detection models. For detection, the authors improve on the LISA \cite{laiLISAReasoningSegmentation2024} model by introducing two new tokens to its vocabulary: one for detection \texttt{<DET>} and one for segmentation \texttt{<SEG>}. The model takes an image and a prompt, such as “Can you identify if this image is real, fully synthetic, or tampered?” as input. It then generates a text description explaining its reasoning, while the last hidden layer contains the two additional tokens. The \texttt{<DET>} token identifies whether the image is manipulated, and if tampering is detected, the \texttt{<SEG>} token highlights the specific regions that have been altered, enabling precise localization of modifications.
 
 \subsection{Challenges}
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.45\columnwidth}
+		\includegraphics[width=\textwidth]{/home/tororo.in/Desktop/UnFakeIt/paper/face.jpeg}
+		\caption{Image has unnatural lighting}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\columnwidth}
+		\includegraphics[width=\textwidth]{/home/tororo.in/Desktop/UnFakeIt/paper/horse.jpeg}
+		\caption{Image defies logic as astronauts do not ride horses in space / on other planets}
+	\end{subfigure}
+	
+\end{figure}
+
+
 A significant portion of methods for deepfake detection systems were built before diffusion \cite{hoDenoisingDiffusionProbabilistic2020} was introduced- mainly due to the fact that training these models was computationally expensive. Soon, \cite{dhariwalDiffusionModelsBeat2021} showed that diffusion-based image generation models were better at image generation while being stable in comparison to their counterparts.\cite{rombachHighResolutionImageSynthesis2022}, \cite{lipmanFlowMatchingGenerative2023} build on this for improved generation, with methods developed to control the generation process like \cite{ruizDreamBoothFineTuning2023, zhangAddingConditionalControl2023} and using fewer steps for denoising as in \cite{lipmanFlowMatchingGenerative2023}. All these result in hyperrealistic image generation with few artifacts, making the process of detecting deepfakes highly difficult. 
 
 
@@ -114,9 +130,9 @@ Our main goal is to detect AI generated images, with secondary goals being inter
 \subsection{Proposed Timeline}
 We have the following timeline for the project :
 \begin{enumerate}
-	\item Week 1 \& 2 (16.06 - 27.06) : dataset collection and labelling, writing the codebase and prototyping
+	\item Week 1 \& 2 (16.06 - 27.06) : Dataset collection and labelling, writing the codebase and prototyping.
 	\item Week 3 (30.06 - 06.07) : Model training, evaluations, writing reports.
-	\item Week 4 (07.07 - 12.07) : additional experiments, if needed
+	\item Week 4 (07.07 - 12.07) : Additional experiments, if needed.
 \end{enumerate}
 
 \section{Methods}
